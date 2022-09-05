@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .container {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+
+        grid-auto-rows: 1fr;
+        grid-gap: 0.1rem;
+        grid-template-columns: 1fr 2fr;
+      }
+      .item {
+        background-color: chocolate;
+        /* border: 1px solid lightcoral; */
+        border-radius: 8px;
+      }
+      img {
+        width: 340px;
+      }
+      p {
+        margin-top: 1rem;
+        color: white;
+      }
+      .btn {
+        margin-top: 5rem;
+
+        padding: 10px;
+        border-radius: 8px;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item"><img src="/images/16.jpg" alt="" /></div>
+      <div class="item">
+        <div class="text">
+          <h2>Helo chuse the product you want</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos
+            maiores natus repellendus dolore, veritatis exercitationem modi
+            voluptatum deserunt fugiat officiis!
+          </p>
+          <button class="btn">Submit</button>
+          <button class="btn">sign in</button>
+        </div>
+      </div>
+      <div class="item">this is the items</div>
+      <div class="item">this is the items</div>
+      <div class="item">this is the items</div>
+      <div class="item">this is the items</div>
+      <div class="item">this is the items</div>
+      <div class="item">this is the items</div>
+      <div class="item">this is the items</div>
+      <div class="item">this is the items</div>
+    </div>
+  </body>
+</html>
